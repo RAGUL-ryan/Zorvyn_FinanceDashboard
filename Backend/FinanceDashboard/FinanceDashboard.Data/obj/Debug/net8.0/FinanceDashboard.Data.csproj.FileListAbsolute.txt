@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\bin\Debug\net8.0\FinanceDashboard.Data.deps.json
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\bin\Debug\net8.0\FinanceDashboard.Data.runtimeconfig.json
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\bin\Debug\net8.0\FinanceDashboard.Data.dll
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\bin\Debug\net8.0\FinanceDashboard.Data.pdb
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\obj\Debug\net8.0\FinanceDashboard.Data.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\obj\Debug\net8.0\FinanceDashboard.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\obj\Debug\net8.0\FinanceDashboard.Data.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\obj\Debug\net8.0\FinanceDashboard.Data.AssemblyInfo.cs
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\obj\Debug\net8.0\FinanceDashboard.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\obj\Debug\net8.0\FinanceDashboard.Data.dll
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\obj\Debug\net8.0\refint\FinanceDashboard.Data.dll
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\obj\Debug\net8.0\FinanceDashboard.Data.pdb
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\obj\Debug\net8.0\FinanceDashboard.Data.genruntimeconfig.cache
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\obj\Debug\net8.0\ref\FinanceDashboard.Data.dll

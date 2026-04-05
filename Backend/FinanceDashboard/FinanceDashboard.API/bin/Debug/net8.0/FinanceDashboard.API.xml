@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FinanceDashboard.API</name>
+    </assembly>
+    <members>
+        <member name="T:FinanceDashboard.API.Controllers.AuthController">
+            <summary>
+            Handles authentication: login, token refresh, and logout.
+            </summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.AuthController.Login(FinanceDashboard.Business.DTOs.Auth.LoginRequestDto)">
+            <summary>Login with email and password to receive JWT tokens.</summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.AuthController.RefreshToken(FinanceDashboard.Business.DTOs.Auth.RefreshTokenRequestDto)">
+            <summary>Refresh access token using a valid refresh token.</summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.AuthController.Logout">
+            <summary>Logout the currently authenticated user and invalidate their refresh token.</summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.AuthController.Me">
+            <summary>Get currently authenticated user info from the JWT token.</summary>
+        </member>
+        <member name="T:FinanceDashboard.API.Controllers.DashboardController">
+            <summary>
+            Aggregated analytics and dashboard summary endpoints.
+            Accessible by all authenticated roles.
+            </summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.DashboardController.GetSummary(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Get full dashboard summary: income, expenses, net balance,
+            category totals, recent activity and monthly trends.
+            [Admin, Analyst, Viewer]
+            </summary>
+            <param name="from">Optional start date filter</param>
+            <param name="to">Optional end date filter</param>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.DashboardController.GetTrends(System.Int32)">
+            <summary>
+            Get monthly income vs expense trends.
+            [Admin, Analyst]
+            </summary>
+            <param name="months">How many past months to include (1–24, default 6)</param>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.DashboardController.GetCategoryBreakdown(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Get spending breakdown by category with percentage share.
+            [Admin, Analyst]
+            </summary>
+            <param name="from">Optional start date</param>
+            <param name="to">Optional end date</param>
+        </member>
+        <member name="T:FinanceDashboard.API.Controllers.TransactionsController">
+            <summary>
+            CRUD operations for financial transactions with filtering, pagination and search.
+            </summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.TransactionsController.GetAll(System.String,System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.Int32,System.Int32)">
+            <summary>
+            List transactions with optional filtering, search and pagination.
+            [Admin, Analyst, Viewer]
+            </summary>
+            <param name="type">Filter by type: Income or Expense</param>
+            <param name="category">Filter by category name</param>
+            <param name="from">Start date (yyyy-MM-dd)</param>
+            <param name="to">End date (yyyy-MM-dd)</param>
+            <param name="search">Search in description, category, notes</param>
+            <param name="page">Page number (default 1)</param>
+            <param name="pageSize">Page size (default 10, max 100)</param>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.TransactionsController.GetById(System.Int32)">
+            <summary>Get a single transaction by ID. [Admin, Analyst, Viewer]</summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.TransactionsController.Create(FinanceDashboard.Business.DTOs.Transactions.CreateTransactionDto)">
+            <summary>Create a new financial transaction. [Admin, Analyst]</summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.TransactionsController.Update(System.Int32,FinanceDashboard.Business.DTOs.Transactions.UpdateTransactionDto)">
+            <summary>Update an existing transaction. [Admin, Analyst]</summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.TransactionsController.Delete(System.Int32)">
+            <summary>Soft-delete a transaction. [Admin only]</summary>
+        </member>
+        <member name="T:FinanceDashboard.API.Controllers.UsersController">
+            <summary>
+            Manage users and their roles. Admin-only unless noted.
+            </summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.UsersController.GetAll">
+            <summary>Get all users. [Admin only]</summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.UsersController.GetById(System.Int32)">
+            <summary>Get a user by ID. [Admin only]</summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.UsersController.Create(FinanceDashboard.Business.DTOs.Users.CreateUserDto)">
+            <summary>Create a new user. [Admin only]</summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.UsersController.Update(System.Int32,FinanceDashboard.Business.DTOs.Users.UpdateUserDto)">
+            <summary>Update a user. [Admin only]</summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.UsersController.Delete(System.Int32)">
+            <summary>Soft-delete a user. [Admin only]</summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.UsersController.SetStatus(System.Int32,System.Boolean)">
+            <summary>Activate or deactivate a user. [Admin only]</summary>
+        </member>
+        <member name="M:FinanceDashboard.API.Controllers.UsersController.ChangePassword(FinanceDashboard.Business.DTOs.Users.ChangePasswordDto)">
+            <summary>Change the authenticated user's own password.</summary>
+        </member>
+        <member name="T:FinanceDashboard.API.Filters.RequireRoleAttribute">
+            <summary>
+            Restricts access to users with one of the specified roles.
+            Usage: [RequireRole("Admin")]  or  [RequireRole("Admin","Analyst")]
+            </summary>
+        </member>
+    </members>
+</doc>

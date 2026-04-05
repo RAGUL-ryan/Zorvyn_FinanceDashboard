@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\bin\Debug\net8.0\FinanceDashboard.Business.deps.json
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\bin\Debug\net8.0\FinanceDashboard.Business.dll
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\bin\Debug\net8.0\FinanceDashboard.Business.pdb
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\bin\Debug\net8.0\FinanceDashboard.Data.dll
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\bin\Debug\net8.0\FinanceDashboard.Data.pdb
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\obj\Debug\net8.0\FinanceDashboard.Business.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\obj\Debug\net8.0\FinanceDashboard.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\obj\Debug\net8.0\FinanceDashboard.Business.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\obj\Debug\net8.0\FinanceDashboard.Business.AssemblyInfo.cs
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\obj\Debug\net8.0\FinanceDashboard.Business.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\obj\Debug\net8.0\FinanceD.D7C8D5A2.Up2Date
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\obj\Debug\net8.0\FinanceDashboard.Business.dll
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\obj\Debug\net8.0\refint\FinanceDashboard.Business.dll
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\obj\Debug\net8.0\FinanceDashboard.Business.pdb
+C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\obj\Debug\net8.0\ref\FinanceDashboard.Business.dll
