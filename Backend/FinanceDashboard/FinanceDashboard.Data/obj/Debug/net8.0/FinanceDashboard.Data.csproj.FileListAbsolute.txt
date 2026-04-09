@@ -12,3 +12,4 @@ C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashb
 C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\obj\Debug\net8.0\FinanceDashboard.Data.pdb
 C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\obj\Debug\net8.0\FinanceDashboard.Data.genruntimeconfig.cache
 C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Data\obj\Debug\net8.0\ref\FinanceDashboard.Data.dll
+C:\Users\Admin\Documents\Zorvyn_Assignment\backend\financedashboard\FinanceDashboard.Data\obj\Debug\net8.0\FinanceDashboard.Data.sourcelink.json

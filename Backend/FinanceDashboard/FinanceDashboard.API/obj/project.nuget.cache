@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cV2Wkj/mgkE=",
+  "dgSpecHash": "kWecgX3N+Tc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Documents\\Zorvyn_Assignment\\backend\\financedashboard\\FinanceDashboard.API\\FinanceDashboard.API.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\Zorvyn_Assignment\\backend\\financedashboard\\financedashboard.api\\FinanceDashboard.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",

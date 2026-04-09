@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\Zorvyn_Assignment\\backend\\financedashboard\\FinanceDashboard.API\\FinanceDashboard.API.csproj": {}
+    "C:\\Users\\Admin\\Documents\\Zorvyn_Assignment\\backend\\financedashboard\\financedashboard.api\\FinanceDashboard.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\Zorvyn_Assignment\\backend\\financedashboard\\FinanceDashboard.API\\FinanceDashboard.API.csproj": {
+    "C:\\Users\\Admin\\Documents\\Zorvyn_Assignment\\backend\\financedashboard\\financedashboard.api\\FinanceDashboard.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Zorvyn_Assignment\\backend\\financedashboard\\FinanceDashboard.API\\FinanceDashboard.API.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Zorvyn_Assignment\\backend\\financedashboard\\financedashboard.api\\FinanceDashboard.API.csproj",
         "projectName": "FinanceDashboard.API",
-        "projectPath": "C:\\Users\\Admin\\Documents\\Zorvyn_Assignment\\backend\\financedashboard\\FinanceDashboard.API\\FinanceDashboard.API.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\Zorvyn_Assignment\\backend\\financedashboard\\financedashboard.api\\FinanceDashboard.API.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\Zorvyn_Assignment\\backend\\financedashboard\\FinanceDashboard.API\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\Zorvyn_Assignment\\backend\\financedashboard\\financedashboard.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

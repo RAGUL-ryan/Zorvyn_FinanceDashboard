@@ -13,3 +13,4 @@ C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashb
 C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\obj\Debug\net8.0\refint\FinanceDashboard.Business.dll
 C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\obj\Debug\net8.0\FinanceDashboard.Business.pdb
 C:\Users\Admin\Documents\Zorvyn_Assignment\Backend\FinanceDashboard\FinanceDashboard.Business\obj\Debug\net8.0\ref\FinanceDashboard.Business.dll
+C:\Users\Admin\Documents\Zorvyn_Assignment\backend\financedashboard\FinanceDashboard.Business\obj\Debug\net8.0\FinanceDashboard.Business.sourcelink.json
